@@ -1,0 +1,46 @@
+td {
+    width: 100px;
+    height: 100px;
+
+    border: 3px solid #2c3e50;
+    background-color: #e0f2ff; /* небесный цвет */
+
+    font-size: 50px;
+    font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+    font-weight: 600;
+
+    text-align: center;
+    vertical-align: middle;
+
+    cursor: pointer;
+    user-select: none;
+
+    empty-cells: show;
+    transition: background-color 0.2s ease;
+}
+
+td:hover {
+    background-color: #cce7ff;
+}
+button {
+    padding: 8px 16px;
+
+    background-color: #c8f2c2; /* светло-зелёный */
+    border: 2px solid #7fbf7a;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #b6eab0;
+}
+
+button:active {
+    transform: scale(0.96);
+}
